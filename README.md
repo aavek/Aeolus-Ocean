@@ -25,9 +25,11 @@ Each of the controllable setup parameters for the simulation are now described:
 | Environment Spacing | Spacing in meters between consecutive environments. Environments are arranged so they fill, at maximum, a 4x4 grid. |
 | Environment Enclosures | Whether to use walls that restrict travel between environments. In the source code, this can speed up training. |
 | Ocean Current Factor | Slider that controls how strong ocean currents are in causing the vessel to drift off course. |
+
 | Waypoint Change Distance | Distance in meters to a waypoint that, when reached, causes a new waypoint to be spawned for the current Agent. |
 | Show Waypoint Markers | Whether to show graphics for waypoint markers and navigational arrows. |
 | Minimum Waypoint Spawn | Minimum distance beyond which a waypoint will spawn from the Environment center as a percentage of the Environment Spacing. This can exceed 1 if you want waypoints to extend beyond the current environment. |
 | Maximum Waypoint Spawn | Maximum distance up to which a waypoint will spawn from the Environment center as a percentage of the Environment Spacing. This can exceed 1 for waypoints beyond the current environment. Must be larger than the minimum waypoint spawn value. |
 | Waypoint Type | Choose between random waypoint placement, or hard-coded crossing waypoint / head-on waypoint scenarios. |
 
+| Waypoint Type | Choose between random waypoint placement, or hard-coded crossing waypoint / head-on waypoint scenarios. |
