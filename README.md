@@ -16,19 +16,18 @@ Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/t
 
 ### Simulation Setup
 
-Each of the controllable parameters for the simulation are now described:
+Each of the controllable setup parameters for the simulation are now described:
 
-Number of Environments : Number of environments agents will reach waypoints on. In the source code, it's used to train agents in parallel.
+| Parameter | Description |
+| :---: | --- |
+| Number of Environments | Number of environments agents will reach waypoints on. In the source code, this is used to train agents in parallel. |
+| Agents Per Environment | Each environment will have this many agents in it. NOTE: (Number of Environments) x (Agents Per Environment) must not exceed 32. |
+| Environment Spacing | Spacing in meters between consecutive environments. Environments are arranged so they fill, at maximum, a 4x4 grid. |
+| Environment Enclosures | Whether to use walls that restrict travel between environments. In the source code, this can speed up training. |
+| Ocean Current Factor | Slider that controls how strong ocean currents are in causing the vessel to drift off course. |
+| Waypoint Change Distance | Distance in meters to a waypoint that, when reached, causes a new waypoint to be spawned for the current Agent. |
+| Show Waypoint Markers | Whether to show graphics for waypoint markers and navigational arrows. |
+| Minimum Waypoint Spawn | Minimum distance beyond which a waypoint will spawn from the Environment center as a percentage of the Environment Spacing. This can exceed 1 if you want waypoints to extend beyond the current environment. |
+| Maximum Waypoint Spawn | Maximum distance up to which a waypoint will spawn from the Environment center as a percentage of the Environment Spacing. This can exceed 1 for waypoints beyond the current environment. Must be larger than the minimum waypoint spawn value. |
+| Waypoint Type | Choose between random waypoint placement, or hard-coded crossing waypoint / head-on waypoint scenarios. |
 
-Agents Per Environment : Each environment will have this many agents in it. 
-                         NOTE: (Number of Environments) x (Agents Per Environment) must not exceed 32.
-                         
-Environment Spacing    : Spacing in meters between consecutive environments. Environments are arranged so they fill, at maximum, a 4x4 grid.
-
-Environment Enclosures : Whether to use walls to restrict travel between environments. In the source code it speeds up training.
-
-Ocean Current Factor   : Slider that controls how strong ocean currents are in causing the vessel to drift off course.
-
-Waypoint Change Distance : Distance in meters to a waypoint that, when reached, causes a new waypoint to be spawned for the current Agent.
-
-Show Waypoint Markers    : Whether to show graphics for waypoint markers and navigational arrows.
