@@ -79,3 +79,9 @@ As the simulation is running, the user can choose to allow the autonomous operat
  <img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="500" />  | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
 (GIF) Vessels respect COLREG Rule 14 (head-on) & 16 | (GIF) Vessels respect COLREG Rule 15 (crossing) & 16
  <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" /> | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
+ 
+## Limitations
+
+* Currently, only a single vessel type (motorboat) has been trained for a sufficiently long enough time. 
+* Additionally, in this version (v1.0) only the same type of vessels are allowed to be simulated in each environment. Future versions will allow for different vessel types, each with their own Agent Brains.
+* Foam is based on a simplified particle system and so may not look great with larger waves.
