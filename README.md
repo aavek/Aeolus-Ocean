@@ -2,6 +2,7 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/93454699/220417462-e59f27fd-344d-4f4a-a9c4-dfb31f3006ed.png">
 </p>
+
 ## Description
 
 An all-weather, day-and-night, simulator that can be implemented as a digital twin for the autonomous navigation of maritime vessels as they attempt to reach waypoints while avoiding collisions with other vessels, obstacles and land.
