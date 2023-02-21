@@ -71,7 +71,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 
 <br>
 
-When each setting is chosen as required, click on "Autonomous Vessel Control".
+When ready, click on "Autonomous Vessel Control".
 
 ### During the Simulation
 
