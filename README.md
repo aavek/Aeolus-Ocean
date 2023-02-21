@@ -72,7 +72,7 @@ When each setting is chosen as required, click on "Autonomous Vessel Control".
 
 ### During the Simulation
 
-As the simulation is running, the user can choose to allow the autonomous operation to continue or override the control by clicking on the "Autonomous Control" button. This will switch it into a "User Control" mode where the vessel can be controlled by the keyboard arrow keys. A GUI button on the top-left of the screen allows the user to customize weather and lighting conditions. If "Show Waypoint Markers" is on, the green navigational arrow on the top shows the direction towards the next waypoint, while the blue arrow shows the directional vector of the vessels velocity.
+As the simulation is running, the user can choose to allow the autonomous operation to continue or override the control by clicking on the "Autonomous Control" button. This will switch it into a "User Control" mode where the vessel can be controlled by the keyboard arrow keys. A GUI button on the top-left of the screen allows the user to customize weather and lighting conditions. If "Show Waypoint Markers" is on, the green navigational arrow on the top shows the direction towards the next waypoint, while the blue arrow shows the directional vector of the vessels velocity. If rain or snow is enabled in the simulation, camera water drops are generated which can have an adverse impact on target vessel detection.  
 
 (Image) Vessel approaching towards waypoint during the day | (Image) DEV tracking another target vessel at night
 :-------------------------:|:-------------------------:
