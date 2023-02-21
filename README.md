@@ -10,7 +10,9 @@ Currently, the project is available in binary form only. It can be downloaded as
 
 ## How to Run
 
-Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.0), you can run the program with ```AEOLUS OCEAN.exe```. By clicking on the "Simulation" tab in the main-menu you should be presented with the following setup menu.
+Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.0), you can safely run the program with ```AEOLUS OCEAN.exe```. The binary is created directly from Unity's build settings, and Windows might ask you to trust it as it may come from an 'unknown publisher'.
+
+By clicking on the "Simulation" tab in the main-menu you should be presented with the following setup menu.
 
 ![setupmenuevening](https://user-images.githubusercontent.com/93454699/220325004-198d7cb9-366e-48f6-9aac-f24d97ec7163.png)
 
@@ -18,7 +20,7 @@ Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/t
 
 Each of the controllable setup parameters (default values shown) for the simulation are now described:
 
-| Environment Parameters | Description |
+| **Environment Parameters** | Description |
 | :---: | --- |
 | Number of Environments | Number of environments agents will reach waypoints on. In the source code, this is used to train agents in parallel. |
 | Agents Per Environment | Each environment will have this many agents in it. NOTE: (Number of Environments) x (Agents Per Environment) must not exceed 32. |
@@ -28,7 +30,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 
 <br>
 
-| Waypoint Parameters | Description |
+| **Waypoint Parameters** | Description |
 | :---: | --- |
 | Waypoint Change Distance | Distance in meters to a waypoint that, when reached, causes a new waypoint to be spawned for the current Agent. |
 | Show Waypoint Markers | Whether to show graphics for waypoint markers and navigational arrows. |
@@ -38,7 +40,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 
 <br>
 
-| Procedural Island Parameters (Perlin Noise) | Description |
+| **Procedural Island Parameters (Perlin Noise)** | Description |
 | :---: | --- |
 | Generate Island Per Environment | Generates an island at the center of each Environment. |
 | Scale | Larger values control how smooth the surface of the island is while smaller values lead to many a more spiky surface. |
@@ -52,7 +54,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 
 <br>
 
-| Designated Ego Vessel (DEV) Parameters | Description |
+| **Designated Ego Vessel (DEV) Parameters** | Description |
 | :---: | --- |
 | DEV ID | Slider that allows the user to select which vessel from this setup will be the DEV. Selecting a DEV tells the program on which vessel to implement the sensors system. |
 | DEV Camera | For a given DEV ID, whether to observe the environment from the on-board vessel camera. |
@@ -63,3 +65,15 @@ Each of the controllable setup parameters (default values shown) for the simulat
 | Vision Detection Distance | Distance in meters by which the DEV camera sensor will lock onto the nearest vessel and track it. If the target vessel is further than this distance, tracking stops. |
 | Radar Distance | Distance in meters by which the DEV radar sensor will pick up nearby vessels.
 | Radar Sweep | Rotations per minute of the radar sweep. Higher values may track nearby vessels more accurately at the cost of not detecting distant ones.
+
+<br>
+
+When each setting is chosen as required, click on "Autonomous Vessel Control".
+
+### During the Simulation
+
+As the simulation is running, the user can choose to allow the autonomous operation to continue or override the control by clicking on the "Autonomous Control" button. This will switch it into a "User Control" mode where the vessel can be controlled by the keyboard arrow keys. A GUI button on the top-left of the screen allows the user to customize weather and lighting conditions. If "Show Waypoint Markers" is on, the green navigational arrow on the top shows the direction towards the next waypoint, while the blue arrow shows the directional vector of the vessels velocity.
+
+Vessel approaching towards waypoint during the day            |  DEV tracking another target vessel at night
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="500" />  |  <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
