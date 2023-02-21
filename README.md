@@ -74,6 +74,8 @@ When each setting is chosen as required, click on "Autonomous Vessel Control".
 
 As the simulation is running, the user can choose to allow the autonomous operation to continue or override the control by clicking on the "Autonomous Control" button. This will switch it into a "User Control" mode where the vessel can be controlled by the keyboard arrow keys. A GUI button on the top-left of the screen allows the user to customize weather and lighting conditions. If "Show Waypoint Markers" is on, the green navigational arrow on the top shows the direction towards the next waypoint, while the blue arrow shows the directional vector of the vessels velocity.
 
-Vessel approaching towards waypoint during the day            |  DEV tracking another target vessel at night
+(Image) Vessel approaching towards waypoint during the day | (Image) DEV tracking another target vessel at night
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="500" />  |  <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
+ <img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="500" />  | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
+(GIF) Vessels respect COLREG Rule 14 (head-on) & 16 | (GIF) Vessels respect COLREG Rule 15 (crossing) & 16
+ <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" /> | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="500" />
