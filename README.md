@@ -78,7 +78,7 @@ Image: Vessel approaching towards waypoint during the day | Image: DEV tracking 
 :-------------------------:|:-------------------------:
  <img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="350" />  | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="350" />
 GIF: Vessels respect COLREG Rule 14 (head-on) & 16 | (GIF) Vessels respect COLREG Rule 15 (crossing) & 16
- <img src="https://user-images.githubusercontent.com/93454699/220414500-d063615a-251a-48a8-9c52-93e6ab97c9cf.gif" width="350" /> | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="350" />
+ <img src="https://user-images.githubusercontent.com/93454699/220414500-d063615a-251a-48a8-9c52-93e6ab97c9cf.gif" width="350" /> | <img src="https://user-images.githubusercontent.com/93454699/220414500-d063615a-251a-48a8-9c52-93e6ab97c9cf.gif" width="350" />
  
 ## Limitations
 
