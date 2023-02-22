@@ -81,7 +81,7 @@ Image: Vessel approaching towards waypoint (daytime). | Image: DEV tracking anot
 :-------------------------:|:-------------------------:
  <img src="https://user-images.githubusercontent.com/93454699/220351883-c5557f2d-7aba-446e-a6cd-bdb64dff0147.png" width="350" />  | <img src="https://user-images.githubusercontent.com/93454699/220360839-1e61cfe1-bf99-4fdf-8c05-a868c1a6921b.png" width="350" />
 GIF: Vessels respect COLREG Rule 14(head-on) & 16. | GIF: Vessels respect COLREG Rule 15(crossing) & 16.
- <img src="https://user-images.githubusercontent.com/93454699/220414500-d063615a-251a-48a8-9c52-93e6ab97c9cf.gif" width="350" /> | <img src="https://user-images.githubusercontent.com/93454699/220564888-52ac4766-b974-4c7b-bc9c-d9ce0feb2b46.gif" width="350" />
+ <img src="https://user-images.githubusercontent.com/93454699/220564888-52ac4766-b974-4c7b-bc9c-d9ce0feb2b46.gif" width="350" /> | <img src="https://user-images.githubusercontent.com/93454699/220414500-d063615a-251a-48a8-9c52-93e6ab97c9cf.gif" width="350" />
 GIF: DEV tracking another target vessel during rain. | GIF: DEV tracking in snow and fog conditions.
  <img src="https://user-images.githubusercontent.com/93454699/220569086-4b1245b7-66e0-43ad-90be-f1f9d15445ec.gif" width="350" /> | <img src="https://user-images.githubusercontent.com/93454699/220571120-6384a7dd-6522-43a7-b16f-e62c91773e04.gif" width="350" />
  
