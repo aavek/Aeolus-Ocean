@@ -9,11 +9,11 @@ An all-weather, day-and-night, simulator that can be implemented as a digital tw
 
 The project consists of an ocean system (Beaufort 1-11) as well as physics algorithms that handle vessel-water interactions and propulsion. Each vessel has its own target acquisition systems (cameras use Object Detection ([YOLO-X](https://github.com/Megvii-BaseDetection/YOLOX)) to visually locate other vessels on-screen and this data is fused with information extracted from a simulated radar system) to detect all other vessels positional data in its environment. Land is detected with a simplified sonar-like system. The navigational guidance of each vessel is controlled by an intelligent Agent that has been trained (as single-agents in the proximity of other single-agents in multiple environments) over a range of different scenarios using Deep Reinforcement Learning (PPO) and Imitation Learning with Unity's Machine Learning Agents Toolkit ([ML-Agents](https://github.com/Unity-Technologies/ml-agents)).
 
-Currently, the project is available in binary form. It can be downloaded as a [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.01). If there is enough interest in the current work, the source code may become available in the future.
+Currently, the project is available in binary form. It can be downloaded as a [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.1). If there is enough interest in the current work, the source code may become available in the future.
 
 ## How to Run
 
-Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.01), you can safely run the program with ```AEOLUS OCEAN.exe```. The binary is created directly from Unity's build settings, and Windows might ask you to trust it as it may come from an 'unknown publisher'.
+Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/tag/v1.1), you can safely run the program with ```AEOLUS OCEAN.exe```. The binary is created directly from Unity's build settings, and Windows might ask you to trust it as it may come from an 'unknown publisher'.
 
 By clicking on the "Simulation" tab in the main-menu you should be presented with the following setup menu.
 
@@ -30,7 +30,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 | Environment Spacing | Spacing in meters between consecutive environments. Environments are arranged so they fill, at maximum, a 4x4 grid. |
 | Environment Enclosures | Whether to use walls that restrict travel between environments. In the source code, this can speed up training. |
 | Ocean Current Factor | Slider that controls how strong ocean currents are in causing the vessel to drift off course. |
-| Wave Spectrum | Choose a non-directional wave spectrum (Pierson-Moskowitz, JONSWAP or Texel MARSEN ARSLOE (TMA) Spectra). In each case, we use the Hasselmann Directional Spreading function. |
+| Wave Spectrum | Choose a non-directional wave spectrum (Pierson-Moskowitz, JONSWAP or JONSWAP with Texel MARSEN ARSLOE (TMA) correction). In each case, we use the Hasselmann Directional Spreading function. |
 
 <br>
 
