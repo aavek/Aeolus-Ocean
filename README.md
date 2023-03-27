@@ -17,7 +17,7 @@ Once you download the [release](https://github.com/aavek/Aeolus-Ocean/releases/t
 
 By clicking on the "Simulation" tab in the main-menu you should be presented with the following setup menu.
 
-![setupmenuevening](https://user-images.githubusercontent.com/93454699/220325004-198d7cb9-366e-48f6-9aac-f24d97ec7163.png)
+![setupmenueveningv2](https://user-images.githubusercontent.com/93454699/227970709-5f84bfb7-b939-443a-950e-286d0633ab52.png)
 
 ### Simulation Setup
 
@@ -30,6 +30,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 | Environment Spacing | Spacing in meters between consecutive environments. Environments are arranged so they fill, at maximum, a 4x4 grid. |
 | Environment Enclosures | Whether to use walls that restrict travel between environments. In the source code, this can speed up training. |
 | Ocean Current Factor | Slider that controls how strong ocean currents are in causing the vessel to drift off course. |
+| Wave Spectrum | Choose a non-directional wave spectrum (Pierson-Moskowitz, JONSWAP or Texel MARSEN ARSLOE (TMA) Spectra). In each case, we use the Hasselmann Directional Spreading function. |
 
 <br>
 
@@ -90,5 +91,5 @@ Note that the GIFs may be slightly sped up to manage upload size limits.
 ## Limitations
 
 * Currently, only a single vessel type (motorboat) has been trained for a sufficiently long enough time. 
-* Additionally, in this version (v1.01) only the same type of vessels are allowed to be simulated in each environment. Future versions will allow for different vessel types, each with their own Agent Brains.
+* Additionally, in this version (v1.1) only the same type of vessels are allowed to be simulated in each environment. Future versions will allow for different vessel types, each with their own Agent Brains.
 * Foam is based on a simplified particle system and so may not look great with larger waves.
