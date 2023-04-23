@@ -73,6 +73,7 @@ Each of the controllable setup parameters (default values shown) for the simulat
 <br>
 
 When ready, click on "Autonomous Vessel Control".
+Important Note: If the simulation hangs upon clicking this, disable "Generate Island Per Environment". This will be fixed soon.
 
 ### During the Simulation
 
