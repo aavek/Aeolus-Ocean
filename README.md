@@ -102,13 +102,14 @@ Note that the GIFs may be slightly sped up to manage upload size limits.
 [BSD-3-Clause License](https://github.com/aavek/Aeolus-Ocean/blob/main/LICENSE)
 
 ## Citation
-
-
+```BibTex
 @article{vekinis2023aeolus,
-      title={Aeolus Ocean -- A simulation environment for the autonomous COLREG-compliant navigation of Unmanned Surface Vehicles using Deep Reinforcement Learning and Maritime Object Detection}, 
+      title={Aeolus Ocean -- A simulation environment for the autonomous COLREG-compliant navigation of Unmanned Surface Vehicles
+                             using Deep Reinforcement Learning and Maritime Object Detection}, 
       author={Andrew Alexander Vekinis and Stavros Perantonis},
       year={2023},
       eprint={2307.06688},
       archivePrefix={arXiv},
       primaryClass={cs.RO}
 }
+```
