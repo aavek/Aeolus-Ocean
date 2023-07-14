@@ -3,6 +3,8 @@
 <img src="https://user-images.githubusercontent.com/93454699/220417462-e59f27fd-344d-4f4a-a9c4-dfb31f3006ed.png">
 </p>
 
+[Aeolus Ocean - A simulation environment for the autonomous COLREG-compliant navigation of Unmanned Surface Vehicles using Deep Reinforcement Learning and Maritime Object Detection](http://arxiv.org/abs/2307.06688)
+
 ## Description
 
 An all-weather, day-and-night, simulator that can be implemented as a digital twin for the autonomous navigation of maritime vessels as they attempt to reach waypoints while avoiding collisions with other vessels while respecting maritime collision regulations (COLREGs), obstacles and land.
@@ -94,3 +96,19 @@ Note that the GIFs may be slightly sped up to manage upload size limits.
 * Currently, only a single vessel type (motorboat) has been trained for a sufficiently long enough time. 
 * Additionally, in this version (v1.11) only the same type of vessels are allowed to be simulated in each environment. Future versions will allow for different vessel types, each with their own Agent Brains.
 * Foam is based on a simplified particle system and so may not look great with larger waves.
+
+## License
+
+[BSD-3-Clause License](https://github.com/aavek/Aeolus-Ocean/blob/main/LICENSE)
+
+## Citation
+
+
+@article{vekinis2023aeolus,
+      title={Aeolus Ocean -- A simulation environment for the autonomous COLREG-compliant navigation of Unmanned Surface Vehicles using Deep Reinforcement Learning and Maritime Object Detection}, 
+      author={Andrew Alexander Vekinis and Stavros Perantonis},
+      year={2023},
+      eprint={2307.06688},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
