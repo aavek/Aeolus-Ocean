@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Aeolus Ocean
+version: 1.11
+message: >-
+  If you like and use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Andrew
+    family-names: Vekinis
+    email: a.vekinis@iit.demokritos.gr
+    affiliation: National Centre of Scientific Research "Demokritos"
+  - given-names: Stavros
+    family-names: Perantonis
+    email: sper@iit.demokritos.gr
+    affiliation: National Centre of Scientific Research "Demokritos"
+repository-code: 'https://github.com/aavek/Aeolus-Ocean'
+abstract: >-
+  An all-weather, day-and-night, simulator that can be implemented as a digital twin for the autonomous COLREG-compliant navigation of maritime vessels. 
+keywords:
+  - reinforcement learning
+  - machine learning
+  - artificial intelligence
+  - simulation
+  - computer vision
+  - computer graphics
+license: BSD-3-Clause
